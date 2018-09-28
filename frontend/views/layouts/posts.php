@@ -1,7 +1,6 @@
 <?php
 
 use frontend\assets\AppAsset;
-use frontend\myWidget\HeaderWidget;
 use yii\helpers\Url;
 AppAsset::register($this);
 
@@ -24,8 +23,6 @@ AppAsset::register($this);
 <a href="<?= Url::to(['account/register'])?>">Регистрация</a><br>
 <a href="<?= Url::to(['account/login'])?>">Авторизация</a>
 
-<?= HeaderWidget::begin()?>
-<?= HeadetWidget::end()?>
 <?= $content?>
 </body>
 <?php $this->endBody()?>

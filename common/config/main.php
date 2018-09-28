@@ -14,12 +14,12 @@ return [
         ],
         'assetManager' => [
             'appendTimestamp' => true, // временная метка для файлов-ресурсов для кеширования (при обновлении файла меняется)
-            'converter' => [
-                'class' => 'yii\web\AssetConverter',
-                'commands' => [
-                    'sass' => ['css', 'sass {from} {to}'],
-                ],
-            ],
+            // 'converter' => [
+            //     'class' => 'yii\web\AssetConverter',
+            //     'commands' => [
+            //         'sass' => ['css', 'sass {from} {to}'],
+            //     ],
+            // ],
         ],
     ],
 ];
